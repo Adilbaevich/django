@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(43, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#name {
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    text-transform: uppercase;
+}
+
+#surname {
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    text-transform: uppercase;
+}
+
+#age {
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    text-transform: uppercase;
+}
+
+#hobby {
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    text-transform: uppercase;
+
+
+}
+img{
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    margin-left: 550px;
+    margin-top: -500px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
