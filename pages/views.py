@@ -1,8 +1,27 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import Product
 
-def index(request):
+def home(request):
+    return render(request, "base.html")
+
+def about(request):
+    return render(request, 'pages/about.html')
+
+def contact(request):
+    return render(request, 'pages/contact.html')
+   
+def sale(request):
+    products = Product.objects.all()
+    context = {
+        'products':products
+    }
+    
     return render(
-        request=request,
-        template_name="pages/base.html"
+        request,
+        'pages/sale.html',
+        context
     )
+
+def repairs(request):
+    return render(request, 'pages/repairs.html')
+

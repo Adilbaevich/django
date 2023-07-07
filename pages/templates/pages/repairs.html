@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Repairs Page
+{% endblock title %}
+
+{% block content %}
+
+   <div class="repair">
+      <h2>Piano</h2>
+      <img src="{% static 'images/jpeg/piano1.jpg' %}" alt="piano">
+      <p>The tool is currently in repair</p>
+      
+   </div>
+   
+   <div class="repair">
+      <h2>Guitar</h2>
+      <img src="{% static 'images/jpeg/guitar1.jpg' %}" alt="guitar">
+      <p>The tool is currently in repair</p>
+      
+   </div>
+
+   <div class="repair">
+      <h2>Violin</h2>
+      <img src="{% static 'images/jpeg/violin1.jpg' %}" alt="violin">
+      <p>The tool is currently in repair</p>
+      
+    </div>
+
+    
+{% endblock %}

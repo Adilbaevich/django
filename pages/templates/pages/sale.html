@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Sale Page
+{% endblock title %}
+
+{% block content %}
+
+   <div class="product">
+      <h2>Piano</h2>
+      <img src="{% static 'images/jpeg/piano.jpg' %}" alt="piano">
+      <p>Piono for sale in good quality</p>
+      <p>Price: $2000</p>
+   </div>
+   
+   <div class="product">
+      <h2>Guitar</h2>
+      <img src="{% static 'images/jpeg/guitar.jpg' %}" alt="guitar">
+      <p>Piono for sale in good quality</p>
+      <p>Price: $1000</p>
+   </div>
+
+   <div class="product">
+      <h2>Violin</h2>
+      <img src="{% static 'images/jpeg/violin.jpg' %}" alt="violin">
+      <p>Piono for sale in good quality</p>
+      <p>Price: $800</p>
+    </div>
+
+    
+{% endblock %}
